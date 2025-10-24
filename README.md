@@ -1,2 +1,71 @@
 # line-by-line-code-explainer-sukhpreet-singh-12201205
 Line by Line Code Explainer is an AI-powered tool that allows users to paste any piece of code and get a line-by-line explanation of what each line does.
+
+
+## Project Overview
+Paste code, understand it instantly, and learn programming faster.
+
+
+## Problem Statement
+Beginners and even intermediate programmers often struggle to understand unfamiliar code quickly.
+Manually analyzing each line is time-consuming, and tutorials or documentation may not explain the logic clearly.
+
+
+## Solution Summary
+We built CodeExplain, an AI web app that lets users paste code snippets and receive line-by-line explanations.
+It uses FastAPI + Llama 3 / GPT API to generate plain-language explanations and an overall summary of the code’s functionality, helping learners understand logic instantly.
+
+
+## Tech Stack
+Backend: Python, FastAPI
+Frontend: React.js / HTML + CSS / JavaScript
+AI / LLM Models: Llama 3 / OpenAI GPT-4
+Database : SQLite / PostgreSQL (for storing code snippets or user history)
+Deployment / Hosting: Render (backend), Vercel (frontend)
+Version Control: Git + GitHub
+
+
+## Project Structure
+
+
+## Deployment
+
+## Demo Video (Mandatory)
+
+## Features
+  - End-to-end working web app (accessible via browser)
+  - Implements AI / LLM-based logic to explain code line by line
+  - Clean, responsive UI with easy copy/download of explanations
+  - Real-world applicability for students, junior developers, and learners
+
+
+## Technical Architecture
+The system allows users to paste code snippets, sends them to an AI model for line-by-line explanations, and returns the results for display.
+ASCII Diagram:
+
+Frontend (React / HTML-CSS)
+          ↓
+User pastes code snippet
+          ↓
+Backend API (FastAPI)
+          ↓
+AI Model (Llama 3 / GPT-4) → Generates line-by-line explanations + overall summary
+          ↓
+Backend sends explanations
+          ↓
+Frontend displays code alongside explanations
+
+##  References
+
+
+## License 
+This project is licensed under the MIT License.
+
+
+## Acknowledgements
+
+
+
+
+
+
