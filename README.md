@@ -52,6 +52,11 @@ line-by-line-code-explainer/
 
 
 ## Deployment
+> The app can be run locally by following the setup steps mentioned above.  
+> 1. Start the backend: `uvicorn main:app --reload`  
+> 2. Start the frontend: `npm start` in the frontend folder  
+> 3. Open the app in your browser at `http://localhost:3000`
+
 
 ## Demo Video (Mandatory)
 
