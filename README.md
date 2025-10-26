@@ -73,19 +73,7 @@ Open the app in your browser (Streamlit will provide a local URL)
 The system allows users to paste code snippets, sends them to Google Gemini API for line-by-line explanations, and displays the results.
 
 ASCII Diagram:
-Frontend (Streamlit UI)->
-          ↓
-User pastes code snippet
-          ↓
-Backend (Streamlit + Python)
-          ↓
-AI Model (Google Gemini)
-          ↓
-Generates line-by-line explanations
-          ↓
-Backend sends explanations
-          ↓
-Frontend displays code alongside explanations
+Frontend (Streamlit UI) -> User pastes code snippet -> Backend (Streamlit + Python) -> AI Model (Google Gemini) -> Generates line-by-line explanations -> Backend sends explanations -> Frontend displays code alongside explanations
 
 
 ##  References
