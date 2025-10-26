@@ -12,7 +12,7 @@ Manually analyzing each line is time-consuming, and tutorials or documentation m
 
 
 ## Solution Summary
-I built line-by-line-code-explainer, a Streamlit AI web app that lets users paste code snippets and receive line-by-line explanations.
+I built line-by-line-code-explainer, a AI web app that lets users paste code snippets and receive line-by-line explanations.
 It uses Google Gemini API to generate plain-language explanations for each line, helping learners understand logic instantly.
 
 
@@ -20,31 +20,47 @@ It uses Google Gemini API to generate plain-language explanations for each line,
 Backend: Python, Streamlit
 Frontend: Streamlit (built-in UI), HTML + CSS
 AI / LLM Models: Google Gemini (gemini-2.0-flash)
-Database: None (optional: SQLite/PostgreSQL for storing code snippets)
 Deployment / Hosting: Streamlit Cloud, Render, or Vercel
 Version Control: Git + GitHub
 
 
 ## Project Structure
-line-by-line-code-explainer/
+EXPLAINCODE/
 │
 ├── explain.py               # Main Streamlit app
 ├── code.css                 # Custom CSS for styling
 ├── requirements.txt         # Python dependencies
 ├── .env                     # GEMINI_API_KEY
-├── venv/                    # Optional: Python virtual environment
+├── exp_env/                 # Python virtual environment
 └── README.md                # Project overview and instructions
 
 
+## Setup Instructions (with Python)
+Follow these exact steps to run your project locally
+
+1. Create and activate a virtual environment:
+    python -m venv exp_env
+    exp_env\Scripts\activate
+
+2. Install dependencies 
+   pip install -r requirements.txt
+
+3. Set Up Environment Variables
+    GEMINI_API_KEY=google_gemini_api_key
+
+4. Run the Streamlit application
+    streamlit run explain.py
+
+   
 ## Deployment
 Run the app locally:
-Activate virtual environment (optional)
+Activate virtual environment: exp_env\Scripts\activate
 Install dependencies: pip install -r requirements.txt
 Run the app: streamlit run explain.py
 Open the app in your browser (Streamlit will provide a local URL)
 
 
-## Demo Video (Mandatory)
+## Demo Video 
 
 ## Features
   - End-to-end working web app (accessible via browser)
@@ -70,6 +86,7 @@ Generates line-by-line explanations
 Backend sends explanations
           ↓
 Frontend displays code alongside explanations
+
 
 ##  References
 Streamlit Official Documentation
