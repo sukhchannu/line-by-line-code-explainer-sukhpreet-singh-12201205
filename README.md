@@ -54,10 +54,10 @@ Follow these exact steps to run your project locally
    
 ## Deployment
 Run the app locally:
-Activate virtual environment: exp_env\Scripts\activate
-Install dependencies: pip install -r requirements.txt
-Run the app: streamlit run explain.py
-Open the app in your browser (Streamlit will provide a local URL)
+- Activate virtual environment: exp_env\Scripts\activate
+- Install dependencies: pip install -r requirements.txt
+- Run the app: streamlit run explain.py
+- Open the app in your browser (Streamlit will provide a local URL)
 
 
 ## Demo Video 
@@ -77,18 +77,18 @@ Frontend (Streamlit UI) -> User pastes code snippet -> Backend (Streamlit + Pyth
 
 
 ##  References
-Streamlit Official Documentation
-Google Generative AI API Documentation
-Tutorials on Python + Streamlit + AI integration
+- Streamlit Official Documentation
+- Google Generative AI API Documentation
+- Tutorials on Python + Streamlit + AI integration
 
 ## License 
 This project is licensed under the MIT License.
 
 
 ## Acknowledgements
-Google for providing Gemini AI models
-Streamlit community for excellent UI framework
-Online tutorials and forums for fullstack Python guidance
+- Google for providing Gemini AI models
+- Streamlit community for excellent UI framework
+- Online tutorials and forums for fullstack Python guidance
 
 
 
