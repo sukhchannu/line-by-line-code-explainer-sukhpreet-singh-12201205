@@ -25,13 +25,14 @@ Version Control: Git + GitHub
 
 
 ## Project Structure
-EXPLAINCODE/
-  -> explain.py                              # Main Streamlit app
-  -> code.css                                # Custom CSS for styling
-  -> requirements.txt                        # Python dependencies
-  -> .env                                    # GEMINI_API_KEY
-  -> exp_env/                                # Python virtual environment
-  -> README.md                               # Project overview and instructions
+EXPLAINCODE
+
+  - explain.py                              # Main Streamlit app
+  - code.css                                # Custom CSS for styling
+  - requirements.txt                        # Python dependencies
+  - .env                                    # GEMINI_API_KEY
+  - exp_env/                                # Python virtual environment
+  - README.md                               # Project overview and instructions
 
 
 ## Setup Instructions (with Python)
