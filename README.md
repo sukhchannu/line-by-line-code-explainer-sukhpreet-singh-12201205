@@ -17,11 +17,11 @@ It uses Google Gemini API to generate plain-language explanations for each line,
 
 
 ## Tech Stack
-Backend: Python, Streamlit
-Frontend: Streamlit (built-in UI), HTML + CSS
-AI / LLM Models: Google Gemini (gemini-2.0-flash)
-Deployment / Hosting: Streamlit Cloud, Render, or Vercel
-Version Control: Git + GitHub
+ - Backend: Python, Streamlit
+ - Frontend: Streamlit (built-in UI), HTML + CSS
+ - AI / LLM Models: Google Gemini (gemini-2.0-flash)
+ - Deployment / Hosting: Streamlit Cloud, Render, or Vercel
+ - Version Control: Git + GitHub
 
 
 ## Project Structure
